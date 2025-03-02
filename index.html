@@ -110,6 +110,14 @@
             padding-left: 925px;
             padding-right: 1px;
         }
+        img.background{
+            /*放在背景最底層*/
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            width: 100%;
+        }
 
     </style>
 </head>
@@ -125,7 +133,7 @@
 <img src="dd.png" alt="" class="dd">
 <img src="ee.png" alt="" class="ee">
 <p class="mid">重新整理中...</p>
-
+<img src="background.jpg" alt="" class="background">
 
 
 </body>
