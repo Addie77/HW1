@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Netflix</title>
+<!--    背景黑色-->
+    <style>
+        body{
+            background-color: #1e1f22;
+        }
+        /*左右內外邊距為0*/
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /*背景上方一條黑色*/
+        /*寬度要填滿左右*/
+        .header{
+            display: flex;
+            align-items: center;
+            background-color: #121213;
+            height: 69px;
+            width: 100%;
+        }
+        /*圖片abc.png放在左上角*/
+        .header img.abc{
+
+            margin-left: 30px;
+            margin-top: 4px;
+            /*圖片縮小*/
+            width: 93px;
+            /*調整上下間距*/
+            padding-top: 4px;
+            padding-left: 29px;
+            cursor: pointer;
+        }
+        .header img.aa{
+
+            margin-left: 1027px;
+            margin-top: 2px;
+            /*圖片縮小*/
+            width: 27px;
+            /*調整上下間距*/
+            padding-top: 1px;
+            padding-left: 29px;
+            cursor: pointer;
+        }
+        .header img.bb{
+
+            margin-left: 5px;
+            margin-top: 2px;
+            /*圖片縮小*/
+            width: 27px;
+            /*調整上下間距*/
+            padding-top: 1px;
+            padding-left: 29px;
+            cursor: pointer;
+        }
+        .header img.cc{
+
+            margin-left: 5px;
+            margin-top: 2px;
+            /*圖片縮小*/
+            width: 27px;
+            /*調整上下間距*/
+            padding-top: 1px;
+            padding-left: 29px;
+            cursor: pointer;
+        }
+        /*首頁字改白色*/
+        .header p.title{
+
+            color: white;
+            font-size: 14px;
+            /*切齊上方*/
+            padding-left: 35px;
+            padding-right: 1px;
+            cursor: pointer;
+        }
+
+    /*dd.png放在背景中間*/
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        img.dd{
+            display: block;
+            margin: 0 auto;
+            margin-top: 1px;
+            width: 300px;
+        }
+        img.ee{
+            display: block;
+            margin: 0 auto;
+            margin-top: 1px;
+            width: 100px;
+            /*旋轉*/
+            animation: rotate 1s linear infinite;
+        }
+        p.mid{
+
+            color: white;
+            font-size: 14px;
+            /*切齊上方*/
+            padding-left: 925px;
+            padding-right: 1px;
+        }
+
+    </style>
+</head>
+<body>
+<!--背景上方一條黑色-->
+<!--圖片abc.png放在左上角-->
+<div class="header"><img src="abc.png" alt="" class="abc">
+    <p class="title">首頁</p> <p class="title">節目</p><p class="title">最新熱門影片</p> <p class="title">我的口袋名單</p> <p class="title">按照語言瀏覽</p>
+    <img src="aa.png" alt="" class="aa">
+    <img src="bb.png" alt="" class="bb">
+    <img src="cc.png" alt="" class="cc">
+</div>
+<img src="dd.png" alt="" class="dd">
+<img src="ee.png" alt="" class="ee">
+<p class="mid">重新整理中...</p>
+
+
+
+</body>
+</html>
