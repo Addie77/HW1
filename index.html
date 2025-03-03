@@ -78,7 +78,11 @@
             /*切齊上方*/
             padding-left: 1%;
             padding-right: 1px;
+            text-decoration: none;
+        }
+        .header p.title:hover {
             cursor: pointer;
+            text-decoration: underline;
         }
 
     /*dd.png放在背景中間*/
@@ -129,13 +133,15 @@
 <body>
 <!--背景上方一條黑色-->
 <!--圖片abc.png放在左上角-->
-<div class="header"><img src="abc.png" alt="" class="abc">
+<div class="header"><a href="https://www.netflix.com/browse"><img src="abc.png" alt="" class="abc"></a>
     <p class="title">首頁</p> <p class="title">節目</p><p class="title">最新熱門影片</p> <p class="title">我的口袋名單</p> <p class="title">按照語言瀏覽</p>
     <img src="aa.png" alt="" class="aa">
     <img src="bb.png" alt="" class="bb">
     <img src="cc.png" alt="" class="cc">
 </div>
-<img src="dd.png" alt="" class="dd">
+<a href="https://www.netflix.com/browse">
+    <img src="dd.png" alt="" class="dd">
+</a>
 <img src="ee.png" alt="" class="ee">
 <p class="mid">重新整理中...</p>
 <img src="background.jpg" alt="" class="background">
